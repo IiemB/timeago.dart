@@ -101,7 +101,7 @@ class MyHomePage extends StatefulWidget {
   final String title;
 
   @override
-  _MyHomePageState createState() => _MyHomePageState();
+  State<MyHomePage> createState() => _MyHomePageState();
 }
 
 class _MyHomePageState extends State<MyHomePage> {
@@ -205,7 +205,7 @@ class _MyHomePageState extends State<MyHomePage> {
       addOrSubstract(baseDate, showFutureDates, const Duration(days: 365 * 2)),
     ];
 
-    final style = Theme.of(context).textTheme.caption;
+    final style = Theme.of(context).textTheme.bodySmall;
     return [
       for (final time in times)
         Container(

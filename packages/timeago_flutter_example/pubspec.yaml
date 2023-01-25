@@ -7,15 +7,15 @@ environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
-  timeago_flutter: 
+  timeago_flutter:
     path: ../timeago_flutter
   flutter:
     sdk: flutter
-  cupertino_icons: ^0.1.3
+  cupertino_icons: ^1.0.5
   sizer: ^2.0.15
 
 dev_dependencies:
-  flutter_lints:
+  flutter_lints: ^2.0.1
   flutter_test:
     sdk: flutter
 
